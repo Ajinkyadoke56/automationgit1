@@ -15,7 +15,9 @@ public class one {
 	driver = new FirefoxDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.myntra.com/login");
-	}
+	System.out.println("ajinkya");
+
+}
 @Test
 public void myntra() {
 	
