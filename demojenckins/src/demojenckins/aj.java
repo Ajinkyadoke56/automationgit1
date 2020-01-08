@@ -5,4 +5,5 @@ public void a() {
 	System.out.println("new");
 	
 }
+
 }
