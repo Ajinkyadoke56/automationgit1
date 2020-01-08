@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31085" started-at="2020-01-08T05:19:05Z" finished-at="2020-01-08T05:19:36Z">
+    <groups>
+      <group name="smoke">
+        <method signature="testgp.login_method()[pri:0, instance:grp1.testgp@1877ab81]" name="login_method" class="grp1.testgp"/>
+        <method signature="testgp.test_two()[pri:0, instance:grp1.testgp@1877ab81]" name="test_two" class="grp1.testgp"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="31085" started-at="2020-01-08T05:19:05Z" finished-at="2020-01-08T05:19:36Z">
+      <class name="grp1.testgp">
+        <test-method status="PASS" signature="start()[pri:0, instance:grp1.testgp@1877ab81]" name="start" is-config="true" duration-ms="25684" started-at="2020-01-08T05:19:05Z" finished-at="2020-01-08T05:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="login_method()[pri:0, instance:grp1.testgp@1877ab81]" name="login_method" duration-ms="4435" started-at="2020-01-08T05:19:31Z" finished-at="2020-01-08T05:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_method -->
+        <test-method status="PASS" signature="test_two()[pri:0, instance:grp1.testgp@1877ab81]" name="test_two" duration-ms="863" started-at="2020-01-08T05:19:35Z" finished-at="2020-01-08T05:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_two -->
+      </class> <!-- grp1.testgp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
